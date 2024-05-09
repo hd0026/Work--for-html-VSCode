@@ -1,0 +1,28 @@
+/* Created by Hunter Doty 5/9/2024 */
+
+body {
+    background-color: #ffe5dc; /* body background color */
+    font-family: sans-serif; /* Apply a sans-serif font */
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #fd4d0c; /* table border color */
+    box-shadow: 3px 3px 5px #792101; /* Apply a box shadow to the table */
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #a22c02; /* table data border color */
+    padding: 10px;
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #fe9772; /* odd rows background color */
+}
