@@ -1,0 +1,47 @@
+/*
+Author: Hunter Doty
+Date: 5/8/2024
+File Name: extendCH7.css
+*/
+
+/* CSS Reset */
+body, header, main, footer, h1, h3, section, article {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #dfe7c4;
+}
+
+/* Style rule for header */
+header {
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color: #628c45;
+	color: #dfe7c4;
+	padding: 2%;
+    text-align: center;
+}
+
+/* Style rules for main content  */
+main {
+	background-color: #fff;
+    display: flex; /* Using flexbox for layout */
+}
+
+article {
+    flex: 1; /* Each article will take up equal space */
+}
+
+aside {
+    padding: 2%;
+    flex: 0 0 250px; /* Set a fixed width for the aside element */
+}
+
+footer {
+	font-size: .70em;
+	text-align: center;
+}
